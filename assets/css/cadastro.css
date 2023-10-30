@@ -1,0 +1,85 @@
+.login-page {
+    width: 360px;
+    padding: 1% 0 0;
+    margin: auto;
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #ebcd48;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+  }
+  
+  .form .register-form {
+    display: none;
+  }
+  #container {
+   width: 360px;
+    padding: 1% 0 0;
+    margin: auto;
+    margin-bottom: 3em
+  }
+  
+  body {  
+    background-image: url('https://1.bp.blogspot.com/-g5JC6qC_Sas/XbNAvQupFsI/AAAAAAAAEdA/WGNv-ssTc3MGvXbOR7GyQ0WFBl-QEHfUwCLcBGAsYHQ/s1600/indigo.png');   
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    
+  }
+
+  label{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 1.5em;
+  }
+
+  .perfil-main{
+    width: 20em;
+    margin-bottom: 1em;    
+  }
+
+  h1{
+      background-color: #ebcd48;
+      padding: 1em;
+  }
+  
+@font-face {
+    font-family: playtime;
+    src: url('../fonts/playtime/playtime.ttf');
+ }
+
+ @font-face {
+    font-family: chubby;
+    src: url('../fonts/chubby/CHUBBY.TTF');
+ }

@@ -1,0 +1,102 @@
+.jumbotron {   
+    background-color: #7faf85;
+    background-size: cover;
+    height: 9.5em;
+    color: #fff; /* Cor do texto - branco */
+    padding: 2rem;
+    margin-bottom: 45em;
+}
+.jumbotron img{
+    width: 60em;
+    height: 40em;
+}
+
+.jumbotron__img__h1{
+    font-family: Main;
+    font-size: 6.0em;
+    text-shadow: 2px 2px 4px #000; /* Sombra no texto para melhor legibilidade */
+}
+
+.chubby{
+    font-family: chubby;
+}
+
+.h1__alterar{    
+    font-size: 4.0em;
+}
+
+.p__alterar{   
+    font-size: 2.0em;
+}
+
+/*Animação*/
+
+#teste3{
+    position:relative;
+    top:0;
+    padding:4px;
+    transition: all .2s ease-in-out
+}
+#teste3:hover{
+    top:-4px;
+}
+
+.card-img-top{
+    height: 21em; 
+    width: 100%; 
+    display: flex;    
+}
+.card-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-top: 0.7em;
+}
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+}
+.linhaCentro{
+    background-color: rgb(49, 48, 48);
+}
+ /* Estilo básico para as faces do card */
+ .card-container {
+    perspective: 1000px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card .card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;       
+    justify-content: center;
+    align-items: center;
+    padding: 1em;        
+}
+
+/* Verso do card */
+.card .back {       
+    transform: rotateY(180deg);
+}
+
+@font-face {
+    font-family: Main;
+    src: url('../fonts/playtime/playtime.ttf');
+ }
+
+ @font-face {
+    font-family: chubby;
+    src: url('../fonts/chubby/CHUBBY.TTF');
+ }

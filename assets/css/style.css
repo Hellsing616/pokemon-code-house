@@ -1,0 +1,50 @@
+html{ 
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;   
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #012a45;
+    padding: 1em;    
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-height: 5em;
+    margin-right: 5em;
+}
+
+footer {  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-link{
+    font-family: Main;
+    font-size: 3em;  
+}
+
+.footer__text{
+    font-size: 1.5em;  
+}
+
+@font-face {
+    font-family: Main;
+    src: url('../fonts/playtime/playtime.ttf');
+ }
+
+ @font-face {
+    font-family: chubby;
+    src: url('../fonts/chubby/CHUBBY.TTF');
+ }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/tipo.css"> 
+    <title>Tipo</title>
+    
+</head>
+<body>
+    <header>   
+        <nav class="navbar navbar-expand-lg navbar-dark">            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokémon</a>
+                </li>
+                <li class="nav-item">                 
+                  <a class="nav-link" href="ondeassistir.html">Onde Assistir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+              </ul>
+            </div>
+          </nav>   
+          <img src="assets/img/geral/pokemon-logo.png" alt="Logo">
+    </header> 
+    
+    <section class="jumbotron text-center">
+      <h1 class="h1__texto">Quem é este POKÉMON?</h1>
+      <p class="h1__texto">Digite um numero para saber qual Pokémon é!</p>              
+    </section>     
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 esquerda"></div>
+        <div class="col-lg-4 mb-4"> 
+          <div class="col">
+            <div class="card centro">
+              <div class="card-body p-4 text-black">           
+                <div class="align-items-center mb-4 por-baixo-img">                                   
+                    <div>
+                      <label id="pokemonImageContainer" style="height: 270px;">                      
+                      </label>
+                    </div>     
+                  </div>
+                  <div class="flex-grow-5 ">
+                    <div>
+                      <p class="mb-0 me-2">                                         
+                          <label class="tratar-text-label">Nome:</label>
+                          <p><label id="nameID"></label></p>                                        
+                      </p>    
+                      <p class="mb-0 me-2">                                         
+                        <label class="tratar-text-label">Tipo:</label>
+                        <p><label id="typeID"></label></p>                                        
+                    </p>                                      
+                    </div>                
+                  </div>
+                </div>                                                 
+                <input type="text" id="nomeDigitado"  class="btn  btn-rounded btn-block" placeholder="Digite um numero entre 1 e 1000">
+                <button type="button" class="btn btn-success btn-rounded btn-block btn-lg"  onclick="buscaPokemonPorNumero()">
+                <i class="far fa-clock me-2"></i>Localize seu Pokémon</button>
+              </div>
+          </div>
+        </div>  
+        <div class="col-lg-4 mb-4 direita"></div>                      
+    </div>                      
+    </div>  
+  
+    
+    <footer class="bg-dark text-light text-center footer__text">
+        &copy; 2023 Desenvolvido por Alex Silva | Todos os direitos reservados
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

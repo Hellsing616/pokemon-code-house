@@ -1,0 +1,133 @@
+#container{   
+    padding: 5em;
+    background-color: #2b2b2b;
+  }
+  .ajuste__margem__central{
+    padding: 5em;
+  }
+
+  .img__centro--formatacao{
+    width: 40em;
+    height: 40em;
+  }
+  
+  .img__centro__direto--formatacao{
+    width: 30em;
+    height: 40em;
+  }
+
+  .h1__text{
+    font-family: playtime;    
+    font-style: italic;    
+  }
+
+  .h2__text{
+    font-family: playtime;    
+    font-size: 2em; 
+    color: white;
+  }
+
+  .h3__text{
+    font-family: chubby;
+    font-size: 2em;
+    text-align: left;
+  }
+  .jumbotron{
+    margin: 0px;
+    padding: 0px;  
+    background-color: #8d96b6;
+  }
+
+  .jumbotron h1{
+    font-size: 4em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+
+  .lead{
+    font-family: chubby;
+    font-size: 2em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+
+  h2{
+    font-family: chubby;
+    color: white;
+    text-align: center;
+  }
+
+  .emissoras{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #2b2b2b;
+    padding: 10px;
+  }
+
+  .tv-ajuste{
+    width: 70px;
+    height: 70px;
+  }
+
+  .vivo{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+  }
+
+  .maratona{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(136, 170, 212);
+    padding: 5px;
+  }
+
+  .proximo{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(161, 164, 167);
+    padding: 5px;
+  }
+  
+  .mb-0{
+    margin-left: 5px;
+  }
+
+  .aventuras{
+    padding: 10px;
+    background-color: #2b2b2b;
+  }
+ 
+  h2{
+    text-transform: uppercase;
+  }
+
+  body{
+    background-color: #2b2b2b;
+  }
+
+.faixa__central{
+  padding: 4em;  
+}
+
+.d-block{
+  width: 70em;
+  height: 90em;
+}
+
+.col-md-4 {  
+  margin-bottom: 2em;
+}
+
+@font-face {
+    font-family: playtime;
+    src: url('../fonts/playtime/playtime.ttf'); 
+}
+
+@font-face {
+    font-family: chubby;
+    src: url('../fonts/chubby/CHUBBY.TTF');
+}
+  
+  

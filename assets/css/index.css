@@ -1,0 +1,110 @@
+body {   
+    background-image: url('assets/img/banner-04.jpg');
+    background-repeat: no-repeat;   
+}
+
+#container{
+    margin-top: 3em;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Main;
+    src: url('../fonts/playtime/playtime.ttf');
+ }
+
+ @font-face {
+    font-family: chubby;
+    src: url('../fonts/chubby/CHUBBY.TTF');
+ }
+
+ /*Animações do texto*/
+#text-animation {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    font-family: chubby;
+    font-size: 10.0em;
+    text-shadow: 2px 2px 4px #000; /* Sombra no texto para melhor legibilidade */
+    text-align: center;
+    animation-duration: 20s;
+    animation: fadeIn 10s ease-in-out infinite;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+#text-animation-geral{
+    position: absolute;
+    top: 90%;
+    color: rgb(10, 238, 231);
+    font-size: 4.0em;
+    text-shadow: 2px 2px 4px #068449; /* Sombra no texto para melhor legibilidade */
+    animation-duration: 20s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+        margin-left: 20%;
+        width: 100%;
+    }
+}
+
+/*Animaçao*/
+#background-image {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#floating-image {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: floatUpDown 3s ease-in-out infinite, floatRandom 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-50%, -40%);
+    }
+}
+
+@keyframes floatRandom {
+    0%, 100% {
+        transform: translate(-50%, -50%);
+    }
+    25% {
+        transform: translate(-50%, -50%) translateX(20vw) translateY(-20vh);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateX(-20vw) translateY(20vh);
+    }
+    75% {
+        transform: translate(-50%, -50%) translateX(20vw) translateY(-20vh);
+    }
+}

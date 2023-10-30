@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/perfil.css"> 
+    <title>Perfil</title>
+    
+</head>
+<body>
+    <header>   
+        <nav class="navbar navbar-expand-lg navbar-dark">            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokémon</a>
+                </li>
+                <li class="nav-item">                 
+                  <a class="nav-link" href="ondeassistir.html">Onde Assistir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+              </ul>
+            </div>
+          </nav>   
+          <img src="assets/img/geral/pokemon-logo.png" alt="Logo">
+    </header>
+   
+    <div id="container">    
+      <section class="section about-section gray-bg" id="about">
+        <div class="container">
+            <div class="row align-items-center flex-row-reverse perfil-color">
+                <div class="col-lg-6">
+                    <div class="about-text go-to">
+                        <h1>Sobre</h1>
+                        <h6 class="theme-color lead"><label id="nomeId"></label></h6>
+                        <p>Eu sou uma <mark>Treinadora de Pokémon tipo fogo.</mark>                                                                 
+                            Conhecida por sua habilidade em criar vínculos fortes com seus Pokémon.
+                            Com um estilo de treinamento carinhoso, ela encoraja o potencial de cada criatura, tornando-se uma inspiração para outros treinadores.
+                            Sua equipe diversificada e estratégias inovadoras a fazem uma adversária formidável em batalhas de Pokémon. Além disso, ela é uma defensora 
+                            ferrenha da preservação do habitat natural dos Pokémon, trabalhando ativamente na conservação de áreas selvagens.
+                        
+                        </p>
+                        <div class="row about-list">
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <label>Nascida em</label>
+                                    <p><label id="nascidaId"></label></p>
+                                </div>
+                                <div class="media">
+                                    <label>Idade</label>
+                                    <p><label id="idadeId"></label></p>
+                                </div>
+                                <div class="media">
+                                    <label>Residencia</label>
+                                    <p><label id="residenciaId"></label></p>
+                                </div>
+                                <div class="media">
+                                    <label>País</label>
+                                    <p><label id="paisId"></label></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <label>E-mail</label>
+                                    <p><label id="emailId"></label></p>
+                                </div>
+                                <div class="media">
+                                    <label>Telefone</label>
+                                    <p><label id="telefoneId"></label></p>
+                                </div>
+                                <div class="media">
+                                    <label>Nickname</label>
+                                    <p><label id="nicknameId"></label></p>
+                                </div>
+                                <div class="media">
+                                    <label>Sexo</label>
+                                    <p><label id="sexoId"></label></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-avatar">
+                        <img src="assets/img/perfil/perfil_novo.jpg" title="treinador" alt="img perfil treinador" class="card-perfil">
+                    </div>
+                </div>
+            </div>
+            <div class="counter">
+                <div class="row">
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center">
+                            <h6 class="count h2" data-to="500" data-speed="500">ME</h6>
+                            <p class="m-0px font-w-600"><hr></p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center">
+                            <h6 class="count h2" data-to="150" data-speed="150">FRIENDS</h6>
+                            <p class="m-0px font-w-600">616</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center">
+                            <h6 class="count h2" data-to="850" data-speed="850">30</h6>
+                            <p class="m-0px font-w-600">LEVEL</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-6">
+                        <div class="count-data text-center">
+                            <h6 class="count h2" data-to="190" data-speed="190">XP:4.700 / 6.000</h6>
+                            <p class="m-0px font-w-600"><hr></p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="counter">                       
+                    <div class="row">
+                        <div class="col-6 col-lg-2">
+                            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Configurações</div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Perfil</h5>
+                                  <img class="d-block mx-auto mb-4" src="assets/img/perfil/style.png" alt="" width="72" height="72">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-2">
+                            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Saúde</div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Seja ativo</h5>
+                                  <img class="d-block mx-auto mb-4" src="assets/img/perfil/saude.png" alt="" width="72" height="72">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-2">
+                            <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Jornada</div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Fique de olho</h5>
+                                  <img class="d-block mx-auto mb-4" src="assets/img/perfil/jornal.png" alt="" width="72" height="72">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-2">
+                            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Carteira</div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Financeiro</h5>
+                                  <img class="d-block mx-auto mb-4" src="assets/img/perfil/money.png" alt="" width="72" height="72">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-2">
+                            <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Caminho</div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Onde vamos?</h5>
+                                  <img class="d-block mx-auto mb-4" src="assets/img/perfil/map-pt.png" alt="" width="72" height="72">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-2">
+                            <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Loja</div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Novidades</h5>
+                                  <img class="d-block mx-auto mb-4" src="assets/img/perfil/loja.png" alt="" width="72" height="72">
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>                              
+            </div> 
+            <div class="counter">
+                <div class="row">
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center acoes-color">
+                            <h6>Distância percorrida</h6>
+                            <p class="m-0px font-w-600">70.0 km</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center  acoes-color">
+                            <h6> PokePost Visitados</h6>
+                            <p class="m-0px font-w-600">45</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center  acoes-color ">
+                            <h6>Numero de capturas</h6>
+                            <p class="m-0px font-w-600">350</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center  acoes-color">
+                            <h6>Elemento</h6>
+                            <p class="m-0px font-w-600">Fogo</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center  acoes-color">
+                            <h6>Batalhas vencidas</h6>
+                            <p class="m-0px font-w-600">850</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="count-data text-center  acoes-color">
+                            <h6>Pokémon Ativo</h6>
+                            <p class="m-0px font-w-600">Sharizard</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+        </div>
+      </section>     
+         
+    </div>
+    <script>
+      var urlParams = new URLSearchParams(window.location.search);
+      
+       var meuObjeto = {     
+        nome:urlParams.get('nome'),
+        email: 'alice@pokemon.com.br',
+        idade: 25, 
+        Nascida: '05 Outubro 1998',
+        Residencia: 'Terra do Nunca',
+        Pais: 'Farofá, BR',
+        Telefone: '820-885-3321',
+        Nickname: 'Azura Ryo',
+        Sexo: 'Feminino'
+  
+    }; 
+    window.onload = function() {
+      atualizarConteudoObjeto() 
+    };
+  
+      
+      function atualizarConteudoObjeto() {
+        var nomeTrainador = document.getElementById("nomeId");
+        var emailTrainador = document.getElementById("emailId");
+        var idadeTrainador = document.getElementById("idadeId");
+  
+        var nascida = document.getElementById("nascidaId");
+        var residencia = document.getElementById("residenciaId");
+        var pais = document.getElementById("paisId");
+  
+        var telefone = document.getElementById("telefoneId");
+        var nickname = document.getElementById("nicknameId");
+        var sexo = document.getElementById("sexoId");
+  
+  
+        nomeTrainador.innerHTML  =`<h2>${ meuObjeto.nome}</h2>`;
+        emailTrainador.innerHTML = meuObjeto.email;
+        idadeTrainador.innerHTML = meuObjeto.idade;
+  
+        nascida.innerHTML  = meuObjeto.Nascida;
+        residencia.innerHTML = meuObjeto.Residencia;
+        pais.innerHTML = meuObjeto.Pais;
+  
+        telefone.innerHTML  = meuObjeto.Telefone;
+        nickname.innerHTML = meuObjeto.Nickname;
+        sexo.innerHTML = meuObjeto.Sexo;
+    }
+    
+  </script>
+    <footer class="bg-dark text-light text-center footer__text">
+        &copy; 2023 Desenvolvido por Alex Silva | Todos os direitos reservados
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

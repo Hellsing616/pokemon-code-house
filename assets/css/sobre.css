@@ -1,0 +1,48 @@
+.span--text{
+    float: left; 
+    font-size: 200%; 
+    font-weight: 500; 
+    line-height: 80%; 
+    color: #30a7d7; 
+    margin: 0px 5px -5px 0px;
+  }
+  .ul--li--text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color: #30a7d7;
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 2em;
+    margin-left: 10em;
+  }
+
+  h2{
+    text-align: left;
+  }
+  a{
+    font-size: 1.5em;
+  }
+  .card-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+  }
+
+  
+@font-face {
+    font-family: Main;
+    src: url('../fonts/playtime/playtime.ttf');
+ }
+
+ @font-face {
+    font-family: chubby;
+    src: url('../fonts/chubby/CHUBBY.TTF');
+ }
+  
+  
+  
+    
+    
+  
+  
+    
+    
